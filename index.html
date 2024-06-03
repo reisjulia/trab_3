@@ -16,8 +16,8 @@
             </ul>
         </div>
         <script>
-            var client_name = prompt("Por favor, insira seu nome:");
-            var ws = new WebSocket(`ws://localhost:8000/ws/${client_name}`);
+            var paciente = Date.now()
+            var ws = new WebSocket(`ws://localhost:8000/ws/${paciente}`);
             ws.onmessage = function(event) {
                 var messages = document.getElementById('messages')
                 var message = document.createElement('li')
