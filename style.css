@@ -10,40 +10,46 @@ body {
     color: white;
     text-align: center;
 }
+
 .chat-container {
     background: rgba(0, 0, 0, 0.5);
-    padding: 2em;
+    padding: 32px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     max-width: 600px;
     width: 100%;
 }
+
 h1 {
-    font-size: 3em;
-    margin-bottom: 0.2em;
+    font-size: 48px;
+    margin-bottom: 12px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
 h2 {
-    font-size: 1.5em;
-    margin-bottom: 1em;
+    font-size: 24px;
+    margin-bottom: 24px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
+
 form {
     display: flex;
     justify-content: center;
-    margin-bottom: 1em;
+    margin-bottom: 24px;
 }
+
 input[type="text"] {
-    padding: 0.7em;
+    padding: 14px;
     border: none;
     border-radius: 5px;
-    margin-right: 0.5em;
+    margin-right: 8px;
     flex-grow: 1;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 button {
-    padding: 0.7em 1em;
+    padding: 12px 20px; 
     border: none;
     border-radius: 5px;
     background: #5151E5;
@@ -51,10 +57,14 @@ button {
     cursor: pointer;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     transition: background 0.3s;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
 }
+
 button:hover {
-    background: #4141C5;
+    background: #707092;
 }
+
 ul {
     list-style: none;
     padding: 0;
@@ -65,16 +75,18 @@ ul {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
-    padding: 1em;
+    padding: 14px;
 }
+
 li {
-    padding: 0.5em;
-    margin-bottom: 0.5em;
+    padding: 10px;
+    margin-bottom: 10px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     animation: fadeIn 0.5s;
 }
+
 @keyframes fadeIn {
     from {
         opacity: 0;
